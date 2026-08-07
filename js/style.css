@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: white;
+    text-align: center;
+    height: 50px;
+}
+nav{
+    background-color: rgb(240, 238, 238);
+}
+ul,li{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(57, 57, 240);
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    border-radius: 10px;
+}
+button:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(146, 18, 18);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 16px 32px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.paner{
+    width: 400px;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgb(240, 238, 238);
+}
+.favoritos, .acessibilidade{
+   padding: 10px;
+   width: 30px;
+}
+.foda{
+    background-color: rgb(67, 67, 226);
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagemLogo{
+    justify-content: space-evenly;
+}
